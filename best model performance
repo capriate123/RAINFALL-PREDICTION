@@ -1,0 +1,26 @@
+Best Model Performance
+Accuracy: 74.47%
+Confusion Matrix:
+[
+17
+7
+5
+18
+]
+[ 
+17
+5
+​
+  
+7
+18
+​
+ ]
+Classification Report:
+Precision: 77% (No Rain), 72% (Rain)
+Recall: 71% (No Rain), 78% (Rain)
+F1-score: 74% (No Rain), 75% (Rain)
+Observations:
+The model shows a balanced performance in predicting both rain and no rain cases.
+Precision and recall are relatively close, indicating a good trade-off between false positives and false negatives.
+Further improvements can be achieved using feature engineering, SMOTE for class balancing, and hyperparameter tuning.
